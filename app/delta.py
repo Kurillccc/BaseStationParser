@@ -1,5 +1,6 @@
 import json
 
+
 def generate_delta(config_path, patched_path, delta_path):
     with open(config_path, 'r') as f:
         config = json.load(f)
